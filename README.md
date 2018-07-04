@@ -19,7 +19,7 @@ or with the ```watch ``` command for not fullfilling your terminal
 (through Cygwin for Windows, or installable through homebrew/macports on MacOSX), 
 
 ```
-watch -d -n 2 nvidia-smi
+watch -d -n 2 nvidia-smi *(cuda-smi for MacOSX)*
 ```
 
 which results in monitoring your GPU(s) usage re-newed each 2 seconds
