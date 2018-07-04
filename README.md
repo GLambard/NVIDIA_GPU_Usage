@@ -2,11 +2,26 @@
 
 Use of [nvidia-smi](https://developer.nvidia.com/nvidia-system-management-interface) 
 
+## System OS
+
+- Linux (Ubuntu, CentOS, ...) 
+- 64-bit Windows Server 2008 R2 
+- Windows 7
+
+- For MacOSX, please check ```cuda-smi``` command from [here](https://github.com/phvu/cuda-smi)
+
 ## How
 In a teminal, type
 ```
 nvidia-smi -l 2
 ```
+or with the ```watch ``` command for not fullfilling your terminal 
+(through Cygwin for Windows, or installable through homebrew/macports on MacOSX), 
+
+```
+watch -d -n 2 nvidia-smi
+```
+
 which results in monitoring your GPU(s) usage re-newed each 2 seconds
 ```
 +-----------------------------------------------------------------------------+
