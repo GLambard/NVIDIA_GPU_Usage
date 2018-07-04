@@ -1,4 +1,4 @@
-# NVIDIA GPU usage in the blink of an eye :zap: :smiley:
+# NVIDIA GPU usage monitoring in the blink of an eye :zap: :smiley:
 
 Use of [nvidia-smi](https://developer.nvidia.com/nvidia-system-management-interface) 
 
@@ -7,7 +7,7 @@ In a teminal, type
 ```
 nvidia-smi -l 2
 ```
-which results in something like this re-newed each 2 seconds
+which results in monitoring your GPU(s) usage re-newed each 2 seconds
 ```
 +-----------------------------------------------------------------------------+
 | NVIDIA-SMI 387.34                 Driver Version: 387.34                    |
